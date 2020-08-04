@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LIBJPEG_SAMPLE.iml" filepath="$PROJECT_DIR$/.idea/modules/LIBJPEG_SAMPLE.iml" group="LIBJPEG_SAMPLE" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LIBJPEG_SAMPLE-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LIBJPEG_SAMPLE-app.iml" group="LIBJPEG_SAMPLE/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpeg_app/LIBJPEG_SAMPLE-jpeg_app.iml" filepath="$PROJECT_DIR$/.idea/modules/jpeg_app/LIBJPEG_SAMPLE-jpeg_app.iml" group="LIBJPEG_SAMPLE/jpeg_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libjpeg_module/LIBJPEG_SAMPLE-libjpeg_module.iml" filepath="$PROJECT_DIR$/.idea/modules/libjpeg_module/LIBJPEG_SAMPLE-libjpeg_module.iml" group="LIBJPEG_SAMPLE/libjpeg_module" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpeg_app/jpeg_app.iml" filepath="$PROJECT_DIR$/jpeg_app/jpeg_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libjpeg_module/libjpeg_module.iml" filepath="$PROJECT_DIR$/libjpeg_module/libjpeg_module.iml" />
