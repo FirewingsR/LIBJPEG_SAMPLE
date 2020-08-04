@@ -25,15 +25,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void click(View view) {
+        BitmapFactory.Options opts = new BitmapFactory.Options();
+        opts.inSampleSize = 2;
         File input = new File(Environment.getExternalStorageDirectory(), "/girl.jpg");
         ImageView preImg = findViewById(R.id.pre);
         mNextImg = findViewById(R.id.next);
-        inputBitmap = BitmapFactory.decodeFile(input.getAbsolutePath());
+        inputBitmap = BitmapFactory.decodeFile(input.getAbsolutePath(), opts);
         preImg.setImageBitmap(inputBitmap);
-        JpegUtils.native_Compress(inputBitmap, 10, Environment.getExternalStorageDirectory() + "/girl4.jpg");
+        JpegUtils.native_Compress(inputBitmap, 70, Environment.getExternalStorageDirectory() + "/girl_jpeg.jpg");
         Toast.makeText(this, "执行完成", Toast.LENGTH_SHORT).show();
-        String filePath = Environment.getExternalStorageDirectory() + "/girl4.jpg";
-        mNextImg.setImageBitmap(BitmapFactory.decodeFile(filePath));
+        String filePath = Environment.getExternalStorageDirectory() + "/girl_jpeg.jpg";
+        mNextImg.setImageBitmap(BitmapFactory.decodeFile(filePath, opts));
     }
 
 }

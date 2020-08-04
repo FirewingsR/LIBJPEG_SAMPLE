@@ -1,18 +1,18 @@
 # lib-name
 MY_LIBS_NAME=libjpeg-turbo_2.0.2
 # 源码目录
-MY_SOURCE_DIR=/home/yangkun/libjpeg-turbo-2.0.2
+MY_SOURCE_DIR=/Volumes/Work/workspaceC/libjpeg-turbo-2.0.2
 MY_BUILD_DIR=yangkun
 
 # android-cmake
-CMAKE_PATH=/opt/cmake-3.14.4/bin
+CMAKE_PATH=/Volumes/Work/CMake.app/Contents/bin
 
 export PATH=${CMAKE_PATH}/bin:$PATH
 
-NDK_PATH=/home/yangkun//android-ndk-r17c
-BUILD_PLATFORM=linux-x86_64
+NDK_PATH=/Volumes/Work/android-ndk-r14b
+BUILD_PLATFORM=darwin-x86_64
 TOOLCHAIN_VERSION=4.9
-ANDROID_VERSION=24
+ANDROID_VERSION=19
 
 ANDROID_ARMV5_CFLAGS="-march=armv5te"
 ANDROID_ARMV7_CFLAGS="-march=armv7-a -mfloat-abi=softfp -mfpu=neon"  # -mfpu=vfpv3-d16  -fexceptions -frtti
